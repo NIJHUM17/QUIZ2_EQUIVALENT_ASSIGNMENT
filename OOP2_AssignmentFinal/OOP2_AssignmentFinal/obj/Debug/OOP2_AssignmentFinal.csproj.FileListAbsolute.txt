@@ -1,0 +1,11 @@
+E:\OOP2_AssignmentFinal\OOP2_AssignmentFinal\OOP2_AssignmentFinal\bin\Debug\OOP2_AssignmentFinal.exe.config
+E:\OOP2_AssignmentFinal\OOP2_AssignmentFinal\OOP2_AssignmentFinal\bin\Debug\OOP2_AssignmentFinal.exe
+E:\OOP2_AssignmentFinal\OOP2_AssignmentFinal\OOP2_AssignmentFinal\bin\Debug\OOP2_AssignmentFinal.pdb
+E:\OOP2_AssignmentFinal\OOP2_AssignmentFinal\OOP2_AssignmentFinal\obj\Debug\OOP2_AssignmentFinal.csprojAssemblyReference.cache
+E:\OOP2_AssignmentFinal\OOP2_AssignmentFinal\OOP2_AssignmentFinal\obj\Debug\OOP2_AssignmentFinal.AllBooks.resources
+E:\OOP2_AssignmentFinal\OOP2_AssignmentFinal\OOP2_AssignmentFinal\obj\Debug\OOP2_AssignmentFinal.Properties.Resources.resources
+E:\OOP2_AssignmentFinal\OOP2_AssignmentFinal\OOP2_AssignmentFinal\obj\Debug\OOP2_AssignmentFinal.csproj.GenerateResource.cache
+E:\OOP2_AssignmentFinal\OOP2_AssignmentFinal\OOP2_AssignmentFinal\obj\Debug\OOP2_AssignmentFinal.csproj.CoreCompileInputs.cache
+E:\OOP2_AssignmentFinal\OOP2_AssignmentFinal\OOP2_AssignmentFinal\obj\Debug\OOP2_AssignmentFinal.exe
+E:\OOP2_AssignmentFinal\OOP2_AssignmentFinal\OOP2_AssignmentFinal\obj\Debug\OOP2_AssignmentFinal.pdb
+E:\OOP2_AssignmentFinal\OOP2_AssignmentFinal\OOP2_AssignmentFinal\obj\Debug\OOP2_AssignmentFinal.Dashboard.resources
