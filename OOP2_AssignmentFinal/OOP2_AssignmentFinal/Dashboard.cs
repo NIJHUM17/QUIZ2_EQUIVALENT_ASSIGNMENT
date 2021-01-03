@@ -13,6 +13,7 @@ namespace OOP2_AssignmentFinal
 {
     public partial class Dashboard : Form
     {
+        public Dashboard() { }
         public Dashboard(string name)
         {
             InitializeComponent();
@@ -38,7 +39,15 @@ namespace OOP2_AssignmentFinal
             conn.Close();
             rtbDashboard.Text = output;
         }
-
+        public Dashboard(string output, string query)
+        {
+            InitializeComponent();
+            var conn = Database.ConnectDB();
+            conn.Open();
+            SqlCommand cmd = new SqlCommand(query, conn);
+            conn.Close();
+            rtbDashboard.Text = output;
+        }
         private void richTextBox2_TextChanged(object sender, EventArgs e)
         {
 

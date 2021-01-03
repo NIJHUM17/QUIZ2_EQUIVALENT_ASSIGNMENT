@@ -79,5 +79,26 @@ namespace OOP2_AssignmentFinal
         {
 
         }
+
+        private void dgvBooks_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                Book b = new Book();
+
+                b.Id = dgvBooks.SelectedRows[0].Cells[0].Value.ToString();
+                b.Name = dgvBooks.SelectedRows[0].Cells[1].Value.ToString();
+                b.Author = dgvBooks.SelectedRows[0].Cells[2].Value.ToString();
+                b.Edition = dgvBooks.SelectedRows[0].Cells[3].Value.ToString();
+
+                string query = String.Format("SELECT * FROM Books WHERE Name='{0}'", b.Name);
+                string output = String.Format("Book Id : {0}" +
+                    "\nBook Name : {1}" +
+                    "\nBook Author : {2}" +
+                    "\nBook Edition : {3}", b.Id, b.Name, b.Author, b.Edition);
+
+                new Dashboard(output, query).Show();
+            }
+        }
     }
 }
